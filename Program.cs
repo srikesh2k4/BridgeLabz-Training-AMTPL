@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using BridgeLabzApp.BasicCSharp;
+namespace Program
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            BasicCSharp bs = new BasicCSharp();
+        }
+    }
+}
 

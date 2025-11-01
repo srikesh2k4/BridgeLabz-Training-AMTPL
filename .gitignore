@@ -1,2 +1,125 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿# =========================
+# Visual Studio / .NET ignore rules
+# =========================
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio folders
+.vs/
+.vscode/
+.idea/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+[Tt]estResults/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+
+# Rider project settings
+.idea/
+
+# Generated files
+Generated_Code/
+*.g.*
+*.i.*
+*.pch
+*.pdb
+*.obj
+*.idb
+*.ilk
+*.meta
+*.cache
+*.tlog
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# TFS / Azure DevOps
+$tf/
+*.tfignore
+
+# Publish output
+publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+app.publish/
+*.deploy.cmd
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Backup & temporary files
+*.bak
+*.Backup
+*.tmp
+*.temp
+*.swp
+*.dbmdl
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Logs
+*.log
+Logs/
+log/
+_log/
+*.trace
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# Cache and packages
+*.ncrunch*
+*.localhistory
+*.DS_Store
+
+# Node.js (if frontend code included)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# JetBrains Rider / Resharper caches
+.idea/
+*.sln.iml
+
+# Environment files
+.env
+.env.*
+*.config.user
+
+# Others
+*.vspscc
+*.vssscc
+*.orig
+
 
