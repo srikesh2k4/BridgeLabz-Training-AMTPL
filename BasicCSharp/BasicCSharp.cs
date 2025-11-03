@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 namespace BridgeLabzApp.BasicCSharp
 {
 	public class BasicCSharp
@@ -106,8 +107,98 @@ namespace BridgeLabzApp.BasicCSharp
             int balance = 01000;//zero wont matter and print
             //PI += 1; ERROR
             Console.WriteLine(balance * (VAT / 100D));
-            
 
+
+        }
+
+        public static void IfStatement()
+        {
+            Console.WriteLine("Enter First number");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second number");
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter solution"+number1+"*"+number2);
+            int solution = Convert.ToInt32(Console.ReadLine());
+            if (solution == (number1 * number2))
+            {
+                Console.WriteLine("Correct Solution");
+            }
+            else
+            {
+                Console.WriteLine("Wrong Solution");
+            }
+        }
+
+        public static void SwitchStatement()
+        {
+            int day = 0;
+            switch (day)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Sunday");
+                    break;
+                default:
+                    Console.WriteLine("Invalid");
+                    break;
+
+            }
+        }
+
+        public static void IterativeStatement()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+            Console.WriteLine(i);
+            }
+            int j = 0;
+            while (j<10)
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+
+            do
+            {
+                Console.WriteLine(j);
+                j++;
+            } while (j < 0);
+
+        }
+
+
+        public static void TernaryOperator()
+        {
+            int age = 10;
+            string result = age >= 0 ? "Valid" : "not valid";
+            Console.WriteLine(result);
+            Console.WriteLine(age >= 0 ? "Valid" : "not valid");
+        }
+
+        public static void NummericFormating()
+        {
+            double value = 10000D / 12D;
+            Console.WriteLine(value);
+            Console.WriteLine(string.Format("{0:0.00}",value));
+            double money = 10.000D;
+            Console.WriteLine(money.ToString("C"));
+            Console.WriteLine(money.ToString("C0"));
+            Console.WriteLine(money.ToString("C1"));
+            Console.WriteLine(money.ToString("C2"));
+            Console.WriteLine(money.ToString("C3"));
+            Console.WriteLine(money.ToString("C", CultureInfo.CurrentCulture));
+            Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-IN")));
+
+        }
+
+        public static void TryParseFunction()
+        {
+            string numString = "1n";
+            int num = 0;
+            bool success = int.TryParse(numString, out num);
+            Console.WriteLine(success);
         }
         public BasicCSharp()
 		{
@@ -115,16 +206,21 @@ namespace BridgeLabzApp.BasicCSharp
             //int y;
             //int z;
             //initialization
-            int x = 10,
+            //int x = 10,
             //    y = 20,
-                z = 30;
+            //z = 30;
 
-            Console.WriteLine(x + z);
-            Console.WriteLine(x + "21" + z);
-            Variable();
-            TypeConverstion();
-            Operator();
-
+            //Console.WriteLine(x + z);
+            //Console.WriteLine(x + "21" + z);
+            //Variable();
+            //TypeConverstion();
+            //Operator();
+            //IfStatement();
+            //SwitchStatement();
+            //IterativeStatement();
+            //TernaryOperator();
+            //NummericFormating();
+            TryParseFunction();
         }
 	}
 }

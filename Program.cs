@@ -6,8 +6,8 @@ namespace Program
     {
         static void Main(String[] args)
         {
-            //BasicCSharp basicCSharp = new BasicCSharp();
-            OddEvenCheck oddEvenCheck = new OddEvenCheck();
+            BasicCSharp basicCSharp = new BasicCSharp();
+            //OddEvenCheck oddEvenCheck = new OddEvenCheck();
         }
     }
 }
