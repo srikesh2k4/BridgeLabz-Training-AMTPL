@@ -8,6 +8,7 @@ namespace Program
         {
             BasicCSharp basicCSharp = new BasicCSharp();
             //OddEvenCheck oddEvenCheck = new OddEvenCheck();
+            FizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
         }
     }
 }

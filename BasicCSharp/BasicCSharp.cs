@@ -196,9 +196,9 @@ namespace BridgeLabzApp.BasicCSharp
         public static void TryParseFunction()
         {
             string numString = "1n";
-            int num = 0;
-            bool success = int.TryParse(numString, out num);
+            bool success = int.TryParse(numString, out int num);
             Console.WriteLine(success);
+            Console.WriteLine(num);
         }
         public BasicCSharp()
 		{
@@ -220,7 +220,7 @@ namespace BridgeLabzApp.BasicCSharp
             //IterativeStatement();
             //TernaryOperator();
             //NummericFormating();
-            TryParseFunction();
+            //TryParseFunction();
         }
 	}
 }
