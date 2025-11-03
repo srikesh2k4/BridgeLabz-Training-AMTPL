@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Threading;
 namespace BridgeLabzApp.BasicCSharp
 {
 	public class BasicCSharp
@@ -200,6 +201,69 @@ namespace BridgeLabzApp.BasicCSharp
             Console.WriteLine(success);
             Console.WriteLine(num);
         }
+
+        public static void VerbatimStringLiteral()
+        {
+            string speech = "he is \"this is \"";
+            Console.WriteLine(speech);
+            string path = "c:\\window\\new";
+            Console.WriteLine(path);
+            //verbatim String literal
+            string path1 = @"\nthis\is ""workin""";
+            Console.WriteLine(path1);
+
+        }
+
+        public static void StringFormating()
+        {
+            double ageIs = 21.0212;
+            string nameIs = "Srikesh";
+            Console.WriteLine("My name is {0} and age is {1:0}", nameIs, ageIs);
+            Console.WriteLine($"My name is {nameIs} and age is {ageIs} ");
+            string nameAndAge = String.Concat("My name is ", nameIs, "\nAge is ", ageIs);
+            Console.WriteLine(nameAndAge);
+        }
+        public static void EmptyString()
+        {
+            string name = String.Empty;
+            Console.WriteLine(name);
+        }
+
+        public static void EqualStringOrNot()
+        {
+            string name = "Srikesh";
+            string name2 = "Srikesh";
+            if (name == name2)
+            {
+                //both value and memory refrence is checked
+            }
+            if (name.Equals(name2))
+            {
+                //check only literal value
+            }
+        }
+
+        public static void StringIteration()
+        {
+            string message = "Srikesh is name";
+            //Console.WriteLine(message[0]);
+            for (int i = 0; i < message.Length; i++)
+            {
+                Console.Write(message[i]);
+                Thread.Sleep(250);
+            }
+            Console.WriteLine();
+            Console.WriteLine(message.Contains("S"));
+        }
+
+        public static void IsNullOrEmpty()
+        {
+            string? name = null;
+            if (string.IsNullOrEmpty(name))
+            {
+                Console.WriteLine("is is null or empty");
+            }
+        }
         public BasicCSharp()
 		{
             //int x;
@@ -221,6 +285,13 @@ namespace BridgeLabzApp.BasicCSharp
             //TernaryOperator();
             //NummericFormating();
             //TryParseFunction();
+            //VerbatimStringLiteral();
+            //StringFormating();
+            //EmptyString();
+            //EqualStringOrNot();
+            //StringIteration();
+            IsNullOrEmpty();
+
         }
 	}
 }

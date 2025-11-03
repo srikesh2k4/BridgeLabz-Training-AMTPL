@@ -3,7 +3,7 @@ namespace BridgeLabzApp.BasicCSharp
 {
 	public class FizzBuzzGame
 	{
-		public void FizzBuzzGame()
+		public FizzBuzzGame()
 		{
             for (int i = 1; i <= 15; i++)
             {
