@@ -290,7 +290,7 @@ namespace BridgeLabzApp.BasicCSharp
             //EmptyString();
             //EqualStringOrNot();
             //StringIteration();
-            IsNullOrEmpty();
+            //IsNullOrEmpty();
 
         }
 	}
