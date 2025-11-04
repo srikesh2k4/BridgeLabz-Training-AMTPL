@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="BasicCSharp\" />
+    <None Remove="ProblemSolving\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BasicCSharp\" />
+    <Folder Include="ProblemSolving\" />
   </ItemGroup>
 </Project>

@@ -11,7 +11,8 @@ namespace Program
             //FizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
             //ArrayLearning arrayLearning = new ArrayLearning();
             //ListLearning listLearning = new ListLearning();
-            DictionaryLearning dictionaryLearning = new DictionaryLearning();
+            //DictionaryLearning dictionaryLearning = new DictionaryLearning();
+            FlipCoin flipCoin = new FlipCoin();
         }
     }
 }
