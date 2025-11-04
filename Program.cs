@@ -1,5 +1,6 @@
 ﻿using System;
 using BridgeLabzApp.BasicCSharp;
+using BridgeLabzApp.ProblemSolving;
 namespace Program
 {
     class Program
@@ -12,7 +13,8 @@ namespace Program
             //ArrayLearning arrayLearning = new ArrayLearning();
             //ListLearning listLearning = new ListLearning();
             //DictionaryLearning dictionaryLearning = new DictionaryLearning();
-            FlipCoin flipCoin = new FlipCoin();
+            //FlipCoin flipCoin = new FlipCoin();
+            LeapYear leapYear = new LeapYear();
         }
     }
 }
