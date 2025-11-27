@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using BridgeLabzApp.Collections.NonGeneric;
 
+LearnHashtable hashtable = new LearnHashtable();
+
+LearnArrayList arrayList = new LearnArrayList();
+
+arrayList.AddValue();
