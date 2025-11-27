@@ -1,0 +1,5 @@
+/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/obj/Debug/net6.0/BridgeLabzApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/obj/Debug/net6.0/BridgeLabzApp.AssemblyInfoInputs.cache
+/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/obj/Debug/net6.0/BridgeLabzApp.AssemblyInfo.cs
+/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/obj/Debug/net6.0/BridgeLabzApp.csproj.CoreCompileInputs.cache
+/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/obj/Debug/net6.0/BridgeLabzApp.sourcelink.json

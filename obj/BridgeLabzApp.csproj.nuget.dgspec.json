@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kotipallisrikesh/Desktop/C# Learning/BridgeLabzApp/BridgeLabzApp/BridgeLabzApp.csproj": {}
+    "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/BridgeLabzApp.csproj": {}
   },
   "projects": {
-    "/Users/kotipallisrikesh/Desktop/C# Learning/BridgeLabzApp/BridgeLabzApp/BridgeLabzApp.csproj": {
+    "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/BridgeLabzApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kotipallisrikesh/Desktop/C# Learning/BridgeLabzApp/BridgeLabzApp/BridgeLabzApp.csproj",
+        "projectUniqueName": "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/BridgeLabzApp.csproj",
         "projectName": "BridgeLabzApp",
-        "projectPath": "/Users/kotipallisrikesh/Desktop/C# Learning/BridgeLabzApp/BridgeLabzApp/BridgeLabzApp.csproj",
+        "projectPath": "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/BridgeLabzApp.csproj",
         "packagesPath": "/Users/kotipallisrikesh/.nuget/packages/",
-        "outputPath": "/Users/kotipallisrikesh/Desktop/C# Learning/BridgeLabzApp/BridgeLabzApp/obj/",
+        "outputPath": "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kotipallisrikesh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +32,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -48,26 +54,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
