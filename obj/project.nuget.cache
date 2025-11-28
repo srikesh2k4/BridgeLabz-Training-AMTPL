@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jUflz2FlVBm7b4bXKHFzuZfKXHm/F4m35HXnVpA0u+tsh2/IiAd45ZzZVl6OzRUgDFFsDF+EjVEh53nJX7s1gw==",
+  "dgSpecHash": "s7t1erTFuxs=",
   "success": true,
-  "projectFilePath": "/Users/kotipallisrikesh/Desktop/C# Learning/BridgeLabzApp/BridgeLabzApp/BridgeLabzApp.csproj",
+  "projectFilePath": "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/BridgeLabzApp.csproj",
   "expectedPackageFiles": [
-    "/Users/kotipallisrikesh/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "/Users/kotipallisrikesh/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
-    "/Users/kotipallisrikesh/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+    "/Users/kotipallisrikesh/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/kotipallisrikesh/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/kotipallisrikesh/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.36/microsoft.netcore.app.host.osx-arm64.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }
