@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DataStructuresProblems\Hard\" />
+    <Folder Include="DataStructuresProblems\Medium\" />
+    <Folder Include="DataStructuresProblems\SearchingAlgorithms\" />
+    <Folder Include="DataStructuresProblems\SortingAlgorithms\" />
+  </ItemGroup>
+
 </Project>
