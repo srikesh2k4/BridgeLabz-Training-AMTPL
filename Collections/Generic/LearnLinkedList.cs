@@ -12,6 +12,7 @@ public class LearnLinkedList
         linkedList.AddLast(51);
         linkedList.AddLast(61);
         LinkedListNode<int> node51 = linkedList.Find(51);
+        linkedList.AddAfter(node51, 21);
         
         foreach (int i in linkedList)
         {
