@@ -21,28 +21,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "srikesh2k4"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;srikesh2k4&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/srikesh2k4/BridgeLabz-Training-AMTPL.git",
-    "accountId": "01e92d25-4535-4b1b-ab30-e2dbb91578f4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/srikesh2k4/BridgeLabz-Training-AMTPL.git&quot;,
+    &quot;accountId&quot;: &quot;01e92d25-4535-4b1b-ab30-e2dbb91578f4&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/OOPS/Abstraction/AbstractClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OOPS/Abstraction/AbstractionWithInterface.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OOPS/Encapsulation/EncapsulationWithProperties.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OOPS/Polymorphism/Overloading.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OOPS/Polymorphism/Overriding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Review3/Question1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Review3/Question2.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3639DR88bGJGHBTTkCXfenvsoZ0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,7 +54,6 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/oops",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/BridgeLabzApp.csproj",
     "node.js.detected.package.eslint": "true",
@@ -94,12 +90,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2b1b0fc-a93b-47e9-8e0f-96f377df5302" name="Changes" comment="" />
+      <changelist id="46a21858-f440-4160-8baa-169837a41ad7" name="Changes" comment="" />
       <created>1764224267613</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764224267613</updated>
       <workItem from="1764224269186" duration="11283000" />
+      <workItem from="1764936450051" duration="1224000" />
     </task>
     <servers />
   </component>
