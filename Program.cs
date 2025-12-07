@@ -1,4 +1,5 @@
 ﻿using BridgeLabzApp.DataStructuresProblems.Easy;
+using BridgeLabzApp.DataStructuresProblems.SortingAlgorithms;
 
 //ReverseArray reverseArray = new ReverseArray();
 
@@ -12,4 +13,6 @@
 
 //MergeTwoSortedArrays mergeTwoSortedArrays = new();
 
-MoveZeros moveZeros = new MoveZeros();
+//MoveZeros moveZeros = new MoveZeros();
+
+LinearSearch linearSearch = new LinearSearch(); 
