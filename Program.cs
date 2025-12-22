@@ -1,3 +1,3 @@
-﻿using BridgeLabzApp.DelegatesLearning;
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
 
-SingleCastDelegateLn singleCastDelegateLn = new SingleCastDelegateLn();
