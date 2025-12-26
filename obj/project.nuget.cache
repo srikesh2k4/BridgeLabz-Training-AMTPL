@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ShML2AeSGDI=",
+  "dgSpecHash": "N2GfPC2rKsM=",
   "success": true,
   "projectFilePath": "/Users/kotipallisrikesh/RiderProjects/BridgeLabz-Training-AMTPL/BridgeLabzApp.csproj",
-  "expectedPackageFiles": [
-    "/Users/kotipallisrikesh/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/kotipallisrikesh/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/kotipallisrikesh/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
