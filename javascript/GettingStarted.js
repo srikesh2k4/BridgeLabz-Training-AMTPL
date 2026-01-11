@@ -1,0 +1,1 @@
+console.log("Welcome to JavaScript! This is your first step in learning a powerful programming language used for web development, server-side applications, and more.");
